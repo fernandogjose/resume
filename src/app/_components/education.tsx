@@ -81,7 +81,7 @@ export function Education() {
             <div className="container px-4 mx-auto">
                 <div className="grid grid-cols-1 gap-12 items-center">
                     <h2 className="text-4xl font-bold text-center">
-                        Professional Experience
+                        Education
                     </h2>
 
                     <div className="relative">
