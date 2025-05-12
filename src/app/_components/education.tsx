@@ -81,11 +81,14 @@ export function Education() {
             <div className="container px-4 mx-auto">
                 <div className="grid grid-cols-1 gap-12 items-center">
                     <h2 className="text-4xl font-bold text-center">
-                        Education
+                        Professional Experience
                     </h2>
 
-                    <div className="relative max-w-4xl mx-auto">
-                        <div className="overflow-hidden" ref={emblaRef}>
+                    <div className="relative">
+                        <div
+                            className="overflow-hidden max-w-3xl mx-auto"
+                            ref={emblaRef}
+                        >
                             <div className="flex select-none ">
                                 {educations.map((education, educationIndex) => (
                                     <div
@@ -116,14 +119,6 @@ export function Education() {
                                                                     >
                                                                         {
                                                                             description.course
-                                                                        }{" "}
-                                                                        |{" "}
-                                                                        {
-                                                                            description.school
-                                                                        }{" "}
-                                                                        |{" "}
-                                                                        {
-                                                                            description.date
                                                                         }
                                                                     </li>
                                                                 )
