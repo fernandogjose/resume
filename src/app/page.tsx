@@ -1,4 +1,5 @@
 import { About } from "./_components/about";
+import { Experience } from "./_components/experience";
 import { Header } from "./_components/header";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
         <main>
             <Header />
             <About />
+            <Experience />
         </main>
     );
 }

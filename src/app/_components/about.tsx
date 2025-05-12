@@ -3,7 +3,7 @@ import about from "../../../public/about.png";
 
 export function About() {
     return (
-        <section className="py-16 bg-[FDF6ec]">
+        <section className="py-16 bg-gray-200">
             <div className="container px-4 mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
