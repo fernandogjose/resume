@@ -34,11 +34,12 @@ export function Header() {
                         </p>
 
                         <a
-                            href="#"
+                            href={`https://wa.me/5511996747551?text=Hello Fernando! I found your portfolio and I'd like to talk to you.`}
+                            target="_blank"
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold flex intems-center justify-center w-fit gap-2"
                         >
                             <WhatsappLogo className="w-5 h-5 mt-[3px]" />
-                            Contato via WhatsApp
+                            Contact me on WhatsApp
                         </a>
 
                         <div className="mt-8">
