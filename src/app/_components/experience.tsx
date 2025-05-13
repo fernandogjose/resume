@@ -12,7 +12,7 @@ import { title } from "process";
 const jobs = [
     {
         title: "Senior Developer",
-        company: "BMG Bank",
+        company: "Bank",
         location: "São Paulo, Brazil",
         date: "May 2024 - Present",
         descriptions: [
